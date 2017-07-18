@@ -14,6 +14,7 @@ using System.Threading.Tasks;
  * Version: 0.4 - Added DisplayPowers method
  * version: 0.5 - Overridden the built-in toString method
  * version: 0.6 - Added stub Method DisplaySkills to the SuperHuman class to conform to the Human class
+ * version: 0.7 - Added private _getPowerIndex method
  */
 
 namespace COMP123_S2017_LESSON10B
@@ -69,6 +70,31 @@ namespace COMP123_S2017_LESSON10B
         public void AddPower(string name, int rank)
         {
             this.Powers.Add(new Power(name, rank));
+        }
+        
+        /// <summary>
+        /// This is the private method returns the index of the Power Name in the power list
+        /// If not found it returns -1
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        private int _getPowerIndex(string name)
+        {
+            int index = 0;
+            foreach (Power power in this.Powers)
+            {
+                if (name.Equals(power.Name))
+                {
+                    break;
+                }
+                index++;
+
+                if (this.Powers.Count==index)
+                {
+                    index = -1; //this means that we did not find the Power in the list
+                }
+            }
+            return index;
         }
 
 
