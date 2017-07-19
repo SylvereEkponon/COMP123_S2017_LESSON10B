@@ -15,7 +15,7 @@ using System.Threading.Tasks;
  * version: 0.5 - used the toString method 
  * version: 0.6 - Implemented the SuperHero class
  * version: 0.7 - Outputed the Karma value
- * version: 0.8 - Implemented the SuperVillain class
+ * version: 0.8 - Implemented the SuperVillain > and < overloaded operator methods
  */
 namespace COMP123_S2017_LESSON10B
 {
@@ -23,11 +23,46 @@ namespace COMP123_S2017_LESSON10B
     {
         static void Main(string[] args)
         {
-            SuperVillain superVillain = new SuperVillain("Super Lyer", 100);
+            SuperVillain superVillain = new SuperVillain("SuperVillain Dude", 100);
             superVillain.AddPower("Cheating", 50);
             superVillain.AddPower("Stealing", 40);
+            superVillain.AddPower("Combat Senses", 30);
             Console.WriteLine(superVillain.ToString());
             Console.WriteLine("Malice: " + superVillain.Malice);
+
+            if (superVillain.GetPower("Cheating") >
+
+                superVillain.GetPower("Combat Senses"))
+
+            {
+
+                Console.WriteLine("Cheating is more powerful than Combat Senses");
+
+            }
+
+
+
+            if (superVillain.GetPower("Combat Senses") >
+
+                superVillain.GetPower("Stealing"))
+
+            {
+
+                Console.WriteLine("Combat Senses is more powerful than Stealing");
+
+            }
+
+            else
+
+            {
+
+                Console.WriteLine("Combat Senses is weaker than Stealing");
+
+            }
+
+
+
+
 
         }
     }
