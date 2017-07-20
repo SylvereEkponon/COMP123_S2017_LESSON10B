@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_LESSON10B.SuperHero">
-    <Position X="6.75" Y="3.5" Width="2.5" />
+    <Position X="8.75" Y="3.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHero.cs</FileName>
@@ -18,27 +18,35 @@
   <Class Name="COMP123_S2017_LESSON10B.SuperHuman" Collapsed="true">
     <Position X="4.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAIAABAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACQABQAAIAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_LESSON10B.SuperVillain">
-    <Position X="3.25" Y="3.5" Width="2.75" />
+    <Position X="2" Y="3.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>SuperVillain.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="COMP123_S2017_LESSON10B.AntiHero">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>AntiHero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="COMP123_S2017_LESSON10B.IHasKarma">
-    <Position X="9" Y="0.75" Width="1.75" />
+    <Position X="10.25" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasKarma.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="COMP123_S2017_LESSON10B.IHasMalice">
-    <Position X="9" Y="2" Width="2" />
+    <Position X="8.25" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMalice.cs</FileName>
