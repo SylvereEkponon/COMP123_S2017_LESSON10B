@@ -16,6 +16,7 @@ using System.Threading.Tasks;
  * version: 0.6 - Implemented the SuperHero class
  * version: 0.7 - Outputed the Karma value
  * version: 0.8 - Implemented the SuperVillain > and < overloaded operator methods
+ * version: 0.9 - Implemented the AntiHero Class
  */
 namespace COMP123_S2017_LESSON10B
 {
@@ -30,34 +31,26 @@ namespace COMP123_S2017_LESSON10B
             Console.WriteLine(superVillain.ToString());
             Console.WriteLine("Malice: " + superVillain.Malice);
 
+            AntiHero batman = new AntiHero("Batman", 20, 20);
+            batman.AddPower("Super Intelligence", 50);
+            Console.WriteLine(batman.ToString());
+            Console.WriteLine("Karma: " + batman.Karma);
+            Console.WriteLine("Malice: " + batman.Malice);
+            Console.WriteLine();
+
             if (superVillain.GetPower("Cheating") >
-
                 superVillain.GetPower("Combat Senses"))
-
             {
-
                 Console.WriteLine("Cheating is more powerful than Combat Senses");
-
             }
-
-
-
             if (superVillain.GetPower("Combat Senses") >
-
                 superVillain.GetPower("Stealing"))
-
             {
-
                 Console.WriteLine("Combat Senses is more powerful than Stealing");
-
             }
-
             else
-
             {
-
                 Console.WriteLine("Combat Senses is weaker than Stealing");
-
             }
 
 
