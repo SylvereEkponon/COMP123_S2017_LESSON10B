@@ -16,6 +16,7 @@ using System.Threading.Tasks;
  * version: 0.6 - Added stub Method DisplaySkills to the SuperHuman class to conform to the Human class
  * version: 0.7 - Added private _getPowerIndex method
  * version: 0.8 - Added the GetPower method
+ * version: 0.9 - Added stub Method Trains to the SuperHuman class
  */
 
 namespace COMP123_S2017_LESSON10B
@@ -152,6 +153,11 @@ namespace COMP123_S2017_LESSON10B
             }
             return new Power("Power not found", 0);
             
+        }
+
+        public override void Trains()
+        {
+            Console.WriteLine("NOT IMPLEMENTED");
         }
 
     }

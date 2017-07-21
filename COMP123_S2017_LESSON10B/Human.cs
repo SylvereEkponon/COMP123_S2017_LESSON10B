@@ -10,6 +10,7 @@ using System.Threading.Tasks;
  * Description : This is the Abstract Human class
  * version: 0.1 - Created the Abstract Human class
  * version: 0.2 - Added public Abstract method DisplaySkills
+ * version: 0.3 - Added public Abstract method Trains
  */
 
 namespace COMP123_S2017_LESSON10B
@@ -51,5 +52,6 @@ namespace COMP123_S2017_LESSON10B
 
         //PUBLIC ABSTRACT METHODS
         public abstract void DisplaySkills();
+        public abstract void Trains();
     }
 }

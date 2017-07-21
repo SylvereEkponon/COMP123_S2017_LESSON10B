@@ -9,6 +9,7 @@ using System.Text;
  * Description : This is the Antihero class
  * It extends the SuperHuman class and implements both the IHasKarma and IHasMalice interfaces 
  * version: 0.1 - Created the AntiHero class
+ * version: 0.2 - Implemented public Abstract method Trains
  */
 
 namespace COMP123_S2017_LESSON10B
@@ -39,12 +40,17 @@ namespace COMP123_S2017_LESSON10B
             this.Malice = malice;
         }
 
-       
+
 
         //PRIVATE METHODS
 
 
+
         //PUBLIC METHODS
+        public override void Trains()
+        {
+            Console.WriteLine("NOT IMPLEMENTED");
+        }
 
     }
 }

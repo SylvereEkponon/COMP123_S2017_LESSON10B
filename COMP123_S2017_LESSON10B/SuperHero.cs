@@ -10,6 +10,7 @@ using System.Threading.Tasks;
  * Description : Demo for Lesson 9
  * version: 0.1 - Created the SuperHero class
  * version: 0.2 - Modified Constructor to take Karma Value 
+ * version: 0.3 - Implemented public Abstract method Trains
  */
 
 namespace COMP123_S2017_LESSON10B
@@ -46,6 +47,12 @@ namespace COMP123_S2017_LESSON10B
         public SuperHero(string name, int karma) : base(name)
         {
             this.Karma = karma;
+        }
+
+        //OVERLOADED
+        public override void Trains()
+        {
+            Console.WriteLine("NOT IMPLEMEMNTED");
         }
     }
 }

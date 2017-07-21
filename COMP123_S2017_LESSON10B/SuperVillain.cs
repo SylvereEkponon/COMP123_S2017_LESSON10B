@@ -9,6 +9,7 @@ using System.Threading.Tasks;
  * Date : July 13, 2017
  * Description : This is the SuperVillain class which inherits from the SuperHuman class and implements the IHasMalice Interface
  * version: 0.1 - Created the SuperVillain class
+ * version: 0.2 - Implemented public Abstract method Trains
  */
 
 namespace COMP123_S2017_LESSON10B
@@ -48,7 +49,10 @@ namespace COMP123_S2017_LESSON10B
             this.Malice = malice;
         }
 
-
-
+        //OVERLOADED
+        public override void Trains()
+        {
+            Console.WriteLine("NOT IMPLEMEMNTED");
+        }
     }
 }

@@ -21,5 +21,7 @@ namespace COMP123_S2017_LESSON10B
 
         //PUBLIC PROPERTIES
         int Karma { get; set; }
+
+
     }
 }
